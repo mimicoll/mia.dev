@@ -50,7 +50,7 @@ header {
 .navigation_links a {
     text-align: left;
     text-decoration: none;
-    color: grey;
+    color: rgb(255, 255, 255);
     position: relative; 
 }
 
@@ -80,9 +80,7 @@ header {
 .navigation_links ul{
     padding: 20px;
 }
-.logo_img {
-    text-align: center;
-}
+
 .contact {
     display: flex;
     justify-content: end;
@@ -98,6 +96,43 @@ header {
     transition: 0.10s ease-in-out;
     transform: scale(1.1);
 }
+
+.logo_img {
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 35px;
+    background: url("new.png") no-repeat center center;
+    background-size: cover;
+    width: 300px;
+    text-align: center;
+    display: block;
+    color: rgb(199, 0, 0);
+    transition: 0.60s ease-in-out;
+    text-decoration: none;
+}
+
+/* Default styles for .Mia and .Dev */
+.logo .Mia {
+    color: rgb(255, 255, 255);
+    transition: 0.60s ease-in-out;
+}
+
+/* When .logo is hovered, change the color of .Mia and .Dev */
+.logo:hover .Mia {
+    color: rgb(199, 0, 0);
+    transition: 0.60s ease-in-out;
+}
+
+.logo:hover .Dev {
+    color: rgb(255, 255, 255);
+    transition: 0.60s ease-in-out;
+}
+
+
 
 .contact_btn {
     padding: 20px;
