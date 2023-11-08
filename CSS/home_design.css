@@ -1,0 +1,481 @@
+body{
+
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin: 0% !important;
+
+}
+/*=========================== N A V I G A T I O N =========================== */
+/* <<<<<<<<<<<<<< Navigation Format >>>>>>>>>>>>>> */
+.row {
+    max-width: 100%;
+    width: 100%;
+
+}
+
+.container {
+    position: fixed;
+    text-align: center;
+    top: 0;
+    max-width: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.col-4 {
+    width: 33%;
+    float: left;
+}
+
+/* <<<<<<<<<<<<<< Navigation Links >>>>>>>>>>>>>> */
+
+.navigation_links ul li{
+    display: inline;
+    padding: 20px;
+}
+.navigation_links a {
+    text-align: left;
+    text-decoration: none;
+    color: rgb(211, 211, 211);
+    position: relative; 
+}
+
+.navigation_links a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: rgb(255, 0, 0);
+    bottom: 0; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    transition: width 0.3s ease; 
+    opacity: 0; 
+}
+
+.navigation_links a:hover::before {
+    width: 100%;
+    opacity: 1; 
+
+}
+.navigation_links a:hover{
+    color: rgb(255, 0, 0);
+    transition: .60s ease-in-out;
+}
+
+.navigation_links ul{
+    padding: 10px;
+}
+
+/* <<<<<<<<<<<<<< Navigation Logo >>>>>>>>>>>>>> */
+
+.logo_img {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+.logo {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    background: url("/CSS/photos/navigationphotos/new.png") no-repeat center center;
+    background-size: cover;
+    width: 200px;
+    text-align: center;
+    display: block;
+    color: rgb(255, 0, 0);
+    transition: 0.60s ease-in-out;
+    text-decoration: none;
+}
+
+.logo .Mia {
+    color: rgb(255, 255, 255);
+    transition: 0.60s ease-in-out;
+}
+
+.logo:hover .Mia {
+    color: rgb(255, 0, 0);
+    transition: 0.60s ease-in-out;
+}
+
+.logo:hover .Dev {
+    color: rgb(255, 255, 255);
+    transition: 0.60s ease-in-out;
+}
+
+/* <<<<<<<<<<<<<< Navigation Contact Button >>>>>>>>>>>>>> */
+.contact {
+    display: flex;
+    justify-content: end;
+
+}
+.contact_btn p:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+    transition: 0.60s ease-in-out;
+
+}
+.contact_btn:hover {
+    transition: 0.10s ease-in-out;
+    transform: scale(1.1);
+}
+
+.contact_btn {
+    padding: 20px;
+    background: url("photos/navigationphotos/new.png") no-repeat center center;
+    background-size: cover;
+    width: 150px;
+    text-align: center;
+    color: rgb(211, 211, 211);
+    text-decoration: none;
+    display: block;
+    transition: 0.60s ease-in-out;
+}
+
+.contact_btn p {
+    margin: 0;
+}
+
+
+/*=========================== H E R O =========================== */
+.hero {
+    width: 100%;
+}
+.hero .col-6 {
+    float: left;
+    width: 50%;
+}
+
+.hero .column {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+
+}
+.img_hero {
+    text-align: left;
+}
+
+
+/*=========================== A B O U T =========================== */
+
+.about {
+    width: 100%;
+    background-image: url("photos/homephotos/abtbg.png");
+    background-position: bottom;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about .column{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+.abtimg {
+    float: left;
+    text-align: right;
+    padding-right: 40px;
+    width: 40%;
+}
+
+.abttext h2 {
+    font-size: 50px;
+}
+.abttext h2, h3 {
+    margin: 0px !important;
+}
+.abttext p {
+    text-align: justify;
+}
+
+.abttext {
+    float: right;
+    text-align: left;
+    max-width: 45%;
+    width: 60%;
+}
+
+.abtbtn {
+    padding: 20px;
+    background: url("photos/homephotos/new.png") no-repeat center center;
+    background-size: cover;
+    width: 300px;
+    text-align: center;
+    color: rgb(211, 211, 211);
+    text-decoration: none;
+    display: block;
+    transition: 0.60s ease-in-out;
+
+}
+
+.abtbtn:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+    transition: 0.60s ease-in-out;
+
+}
+
+
+/*=========================== S E R V I C E =========================== */
+.servicesection {
+    width: 100%;
+    margin-bottom: 50px;
+    background-image: url("photos/homephotos/servicebg.png");
+    background-size: cover;
+    background-position: top center;
+}
+
+.servicewrap {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 10px ;
+}
+
+.servicetxt {
+    margin-top: 50px;
+    text-align: center;
+    max-width: 60%;
+
+}
+.servicetxt h2 {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 0%;
+}
+.servicetxt p {
+    margin-bottom: 0%;
+}
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.carousel input[type="radio"] {
+    display: none;
+}
+
+.carousel-slides {
+    display: flex;
+    transition: 0.5s;
+}
+
+.slide {
+    flex: 0 0 100%;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-nav {
+    text-align: center;
+}
+
+.carousel-nav label {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: #888;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.carousel-nav label:hover {
+    background: #444;
+}
+
+input#slide1:checked ~ .carousel-slides {
+    transform: translateX(0);
+}
+
+input#slide2:checked ~ .carousel-slides {
+    transform: translateX(-100%);
+}
+
+input#slide3:checked ~ .carousel-slides {
+    transform: translateX(-200%);
+}
+
+.servicebtn {
+    padding: 20px;
+    background: url("photos/homephotos/new.png") no-repeat center center;
+    background-size: cover;
+    width: 150px;
+    text-align: center;
+    color: rgb(211, 211, 211);
+    text-decoration: none;
+    display: block;
+    transition: 0.60s ease-in-out;
+}
+.servicebtn:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+    transition: 0.60s ease-in-out;
+
+}
+.servicebtnwrap {
+    display: flex;
+    justify-content: center;
+}
+/*=========================== C O N T A C T =========================== */
+.contactsection {
+    background-image: url("photos/homephotos/contactbg.jpg");
+    background-size: cover;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+.contacttext {
+    text-align: center;
+    max-width: 75%;
+}
+.contacttext h2{
+    font-size: 45px;
+    margin: 0%;
+}
+.contactbtnwrap {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.contactbtn {
+    padding: 20px;
+    background: url("photos/homephotos/new.png") no-repeat center center;
+    background-size: cover;
+    width: 150px;
+    text-align: center;
+    color: rgb(211, 211, 211);
+    text-decoration: none;
+    display: block;
+    transition: 0.60s ease-in-out;
+
+}
+.contactbtn:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+    transition: 0.60s ease-in-out;
+
+}
+
+/*===========================  F O O T E R =========================== */
+
+.footer {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    margin-top: 80px;
+}
+.footer h2 {
+    margin: 0%;
+    font-weight: 800;
+}
+
+h2 .dev{
+    color: rgb(255, 255, 255);
+    transition: 0.45s ease-in-out;
+}
+h2 .mia{
+    color: white;
+}
+h2 .dev:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.45s ease-in-out;
+}
+
+.footer .col-9 {
+    width: 33.3%;
+}
+
+.footer .column {
+    display: flex;
+    margin-bottom: 80px;
+
+    padding-left: 180px;
+    padding-right: 100px;
+
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 10px !important;
+    line-height:40px;
+    margin: 0%;
+
+}
+.footertxt ul {
+    line-height: 20px;
+} 
+
+.footer a {
+    text-align: left;
+    text-decoration: none;
+    color: rgb(211, 211, 211);
+    position: relative; 
+}
+
+.footer a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: rgb(255, 0, 0);
+    bottom: 0; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    transition: width 0.3s ease; 
+    opacity: 0; 
+}
+
+.footer a:hover::before {
+    width: 100%;
+    opacity: 1; 
+
+}
+.footer a:hover{
+    color: rgb(255, 0, 0);
+    transition: .60s ease-in-out;
+}
+
+.footer ul{
+    padding: 10px;
+}
+
+.footernav {
+
+    float: left;
+    color: white ;
+}
+
+.footerimg {
+    float: right;
+    text-align: left;
+
+}
+
+.footer h2:hover {
+    color: rgb(255, 0, 0);
+    transition: .60s ease-in-out;
+}
+
+.footer hr {
+    color: rgb(255, 255, 255);
+}
+.footer p {
+    text-align: center;
+}
