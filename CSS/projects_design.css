@@ -160,8 +160,8 @@ body{
 
 .text_hero {
     text-align: center;
-    padding-right: 500px;
-    padding-left: 500px;
+    padding-right: 25%;
+    padding-left: 25%;
 }
 
 .text_hero h2{
@@ -170,13 +170,13 @@ body{
     transition: 0.65s ease-in-out;
 }
 .text_hero h3 {
-    margin: 0px;    
+    margin: 0px; 
 }
 .text_hero h2:hover {
     transition: 0.65s ease-in-out;
     color: red;
-}
 
+}
 
 /*=========================== B A C K G R O U N D =========================== */
 
@@ -222,25 +222,7 @@ body{
     padding-right: 10%;
 }
 
-.bgbtn {
-    padding: 20px;
-    background: url("photos/homephotos/new.png") no-repeat center center;
-    background-size: cover;
-    width: 300px;
-    text-align: center;
-    color: rgb(211, 211, 211);
-    text-decoration: none;
-    display: block;
-    transition: 0.60s ease-in-out;
 
-}
-
-.bgbtn:hover {
-    color: rgb(255, 0, 0);
-    text-decoration: underline;
-    transition: 0.60s ease-in-out;
-
-}
 
 
 /*=========================== S E R V I C E =========================== */
@@ -251,7 +233,7 @@ body{
     background-size: cover;
     color: rgb(255, 255, 255);
     padding-top: 100px;
-    padding-bottom: 200px;
+    height: 85vh;
 
 
 }
@@ -264,8 +246,8 @@ body{
 .svcimg {
     float: right;
     text-align: left;
-
     width: 50%;
+    padding-left: 10px;
 }
 
 .svctext h2 {
@@ -282,23 +264,12 @@ body{
     float: left;
     text-align: left;
     line-height: 35px;
-    width: 50%;
+    width:50%;
     padding-left: 15%;
+    padding-right: 10%;
 
 }
 
-.svcbtn {
-    padding: 20px;
-    background: url("photos/homephotos/new.png") no-repeat center center;
-    background-size: cover;
-    width: 300px;
-    text-align: center;
-    color: rgb(211, 211, 211);
-    text-decoration: none;
-    display: block;
-    transition: 0.60s ease-in-out;
-
-}
 
 .svcbtn:hover {
     color: rgb(255, 0, 0);
@@ -313,8 +284,8 @@ body{
     background-image: url("photos/homephotos/contactbg.jpg");
     background-size: cover;
     width: 100%;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    height: 40vh;
+    padding-top: 10%;
     display: flex;
     justify-content: center;
 }
@@ -382,7 +353,6 @@ h2 .dev:hover{
 .footer .column {
     display: flex;
     margin-bottom: 80px;
-
     padding-left: 180px;
     padding-right: 100px;
 
