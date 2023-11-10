@@ -231,10 +231,10 @@ body{
 }
 
 .accordion {
-    width: 100%; /* You can change this width to your desired value */
+    width: 100%; 
   }
 
-  /* Style the accordion section titles (labels and input elements) */
+ 
   .accordion-label {
     display: block;
     color: #ffffff;
@@ -242,13 +242,13 @@ body{
     border: 1px solid #ccc;
     text-align: left;
     cursor: pointer;
-    transition: background-color 0.30s; /* Add transition to change background color */
+    transition: background-color 0.30s;
   }
     .accordion-label:hover{
         color: black;
         transition: background-color 0.30s;
     }
-  /* Style the hidden input elements */
+ 
   .accordion-input {
     display: none;
   }

@@ -178,9 +178,9 @@ body{
 
 }
 
-/*=========================== B A C K G R O U N D =========================== */
+/*=========================== L E F T P R O J E C T S =========================== */
 
-.background {
+.left {
     padding-bottom: 100px;
     width: 100%;
     background-image: url("/CSS/photos/aboutphotos/bgbg.png");
@@ -191,7 +191,9 @@ body{
 
 }
 
-.background .column{
+
+
+.left .column{
     display: flex;
     align-items: center;
     padding: 10px;
@@ -226,7 +228,7 @@ body{
 
 
 /*=========================== S E R V I C E =========================== */
-.service {
+.domigo {
     width: 100%;
     background-image: url("/CSS/photos/aboutphotos/servicebg.png");
     background-position: bottom;
@@ -237,7 +239,7 @@ body{
 
 
 }
-.service .column{
+.domigo .column{
     display: flex;
     align-items: center;
     padding: 10px;
@@ -271,13 +273,10 @@ body{
 }
 
 
-.svcbtn:hover {
-    color: rgb(255, 0, 0);
-    text-decoration: underline;
-    transition: 0.60s ease-in-out;
 
+.canva{
+    justify-content: left;
 }
-
 
 /*=========================== C O N T A C T =========================== */
 .contactsection {
