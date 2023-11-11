@@ -177,7 +177,7 @@ body{
 
 }
 
-/*=========================== B A C K G R O U N D =========================== */
+/*===========================    C O N T A C T  =========================== */
 
 .background {
     padding-bottom: 100px;
@@ -192,7 +192,7 @@ body{
     height: 45vh;
     margin:0% auto;
     position: relative; 
-    margin-top: -20%;
+    margin-top: -15%;
     margin-bottom: 5%;
 }
 
